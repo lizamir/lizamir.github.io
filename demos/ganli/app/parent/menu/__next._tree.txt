@@ -1,0 +1,9 @@
+:HL["/demos/ganli/_next/static/chunks/0bcctf-ccb0vr.css","style"]
+:HL["/demos/ganli/_next/static/media/Heebo_VariableFont_wght-s.p.3w-rg5m9s5chw.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
+:HL["/demos/ganli/_next/static/media/d67f7d1ea94f7e92.p.09u328g9fwh01.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/demos/ganli/_next/static/media/e6e8ca0d998ffdf0.p.10kjp6e9th26d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":"menu","h":96,"c":"$Q4"}]]
+2:[["children",{"s":"parent","h":96,"c":"$Q3"}]]
+1:[["children",{"s":"app","h":96,"c":"$Q2"}]]
+0:{"b":"ZsnkcreE7yKCwLAcn6InV","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
