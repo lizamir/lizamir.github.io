@@ -187,3 +187,5 @@ a{color:inherit}
   .swap b:first-child{opacity:1;transform:none}
   .load i{transform:none}
 }
+
+.vs,.vs *{font-family:"HeeboV",Heebo,sans-serif}.vs h2{font-weight:900;letter-spacing:-.035em;line-height:.98}.vs-hours th,.vs-hours td{border-bottom:1px solid #0e0e1033}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}

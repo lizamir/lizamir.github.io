@@ -208,3 +208,58 @@
     update();
   }
 })();
+
+/* ---- real-site layer ---- */
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  if (!$(".fx-back")) {
+    const a = document.createElement("a");
+    a.className = "fx-back"; a.href = "/#brand-worlds"; a.textContent = "← חזרה לפורטפוליו של ליז";
+    document.body.appendChild(a);
+  }
+  const vs = $("#visit");
+  if (!vs) return;
+  const fmt = new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Jerusalem", weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false });
+  const parts = () => Object.fromEntries(fmt.formatToParts(new Date()).map((p) => [p.type, p.value]));
+  const dayIdx = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+  const toMin = (t) => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
+  const hours = JSON.parse(vs.dataset.hours || "{}");
+  const names = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת"];
+  const tick = () => {
+    const p = parts(), d = dayIdx[p.weekday], now = toMin(p.hour + ":" + p.minute);
+    $$(".vs-hours tr").forEach((r) => r.classList.toggle("today", +r.dataset.d === d));
+    const el = $("[data-open]");
+    if (!el) return;
+    const today = hours[d] || [];
+    const open = today.find((r) => { const [a, b] = r.split("-"); return now >= toMin(a) && now < toMin(b); });
+    if (open) { el.classList.add("on"); el.textContent = `פתוח עכשיו עד ${open.split("-")[1]}`; return; }
+    el.classList.remove("on");
+    for (let i = 0; i < 7; i++) {
+      const dd = (d + i) % 7, slots = hours[dd] || [];
+      const nxt = slots.find((r) => i > 0 || toMin(r.split("-")[0]) > now);
+      if (nxt) { el.textContent = `סגור כרגע. נפתח ${i === 0 ? "היום" : i === 1 ? "מחר" : "ביום " + names[dd]} ב‑${nxt.split("-")[0]}`; return; }
+    }
+    el.textContent = "סגור כרגע";
+  };
+  tick(); setInterval(tick, 30000);
+  if (vs.dataset.countdown) {
+    const t = new Date(vs.dataset.countdown).getTime();
+    const run = () => {
+      const diff = Math.max(0, t - Date.now());
+      const set = (k, v) => ($(`[data-cd=${k}]`).textContent = String(v).padStart(2, "0"));
+      set("d", Math.floor(diff / 864e5)); set("h", Math.floor(diff / 36e5) % 24); set("m", Math.floor(diff / 6e4) % 60);
+    };
+    run(); setInterval(run, 30000);
+  }
+  const form = $(".vs-form");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let ok = true;
+    $$("input,select", form).forEach((i) => { const bad = !i.value.trim(); i.setAttribute("aria-invalid", String(bad)); if (bad) ok = false; });
+    const msg = $(".vs-ok", form);
+    if (!ok) { msg.style.color = "#c0261f"; msg.textContent = "נא למלא את כל השדות."; return; }
+    msg.style.color = ""; msg.textContent = `תודה ${form.elements.name.value}! קיבלנו את הפרטים ונחזור אליכם בהקדם.`;
+    form.reset();
+  });
+})();

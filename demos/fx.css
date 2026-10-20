@@ -137,3 +137,55 @@
 
 .burger-brand{overflow-x:clip}.burger-tabs button>span{opacity:.9!important}.treatment-list summary span{color:#6b536b!important}
 @media(max-width:860px){.ex-mob{margin-top:120px}}
+
+/* ---------- "real site" layer: visit section, footer, floating portfolio pill ---------- */
+.back-link,.demo-ribbon,.demo-banner,.demo-bar{display:none!important}
+.fx-back{position:fixed;inset-inline-start:16px;bottom:16px;z-index:90;display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:99px;background:#111d;color:#fff;font:600 13px/1 Rubik,Heebo,Arial,sans-serif;text-decoration:none;backdrop-filter:blur(10px);box-shadow:0 8px 24px #0004;transition:transform .25s}
+.fx-back:hover{transform:translateY(-3px)}
+.fx-back:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.vs{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(24px,5vw,80px);padding:clamp(60px,8vw,110px) 6vw;background:var(--vs-bg);color:var(--vs-ink)}
+.vs h2{font-size:clamp(40px,5.6vw,84px);max-width:none;margin-bottom:22px}
+.vs h2 em{color:var(--vs-a)}
+.vs .eyebrow{color:var(--vs-ink);opacity:.85}
+.vs-open{display:inline-flex;align-items:center;gap:10px;padding:8px 16px;border-radius:99px;border:1.5px solid currentColor;font:700 15px Rubik,sans-serif;margin:0 0 24px}
+.vs-open::before{content:"";width:10px;height:10px;border-radius:50%;background:#9a9a9a}
+.vs-open.on::before{background:#3ad07a;box-shadow:0 0 0 0 #3ad07a88;animation:ping 1.8s infinite}
+.vs-addr{font-style:normal;display:grid;gap:4px;font-size:19px;margin-bottom:26px}
+.vs-addr b{font:600 24px Rubik,sans-serif}
+.vs-addr a{text-decoration:underline;text-underline-offset:3px;width:fit-content}
+.vs-hours{border-collapse:collapse;width:min(420px,100%);font-size:16.5px}
+.vs-hours th,.vs-hours td{padding:9px 0;border-bottom:1px solid currentColor;border-bottom-color:#8884;text-align:start;font-weight:400}
+.vs-hours td{text-align:end}
+.vs-hours tr.today{font-weight:800}
+.vs-hours tr.today th,.vs-hours tr.today td{font-weight:800;color:var(--vs-a)}
+.vs-count{display:flex;align-items:baseline;gap:8px;margin:0 0 26px;font-family:Rubik,sans-serif}
+.vs-count b{font-size:clamp(44px,6vw,84px);font-weight:800;line-height:1;min-width:1.2em;text-align:center}
+.vs-count span{font-size:15px;margin-inline-end:14px;opacity:.85}
+.vs-form{background:#fff;color:#1f1a24;border-radius:26px;padding:clamp(22px,3vw,40px);display:grid;gap:14px;align-content:start;box-shadow:0 30px 60px -30px #0006}
+.vs-form h3{font:700 26px Rubik,sans-serif;margin:0 0 4px}
+.vs-form label{display:grid;gap:6px;font:600 14px Rubik,sans-serif;color:#4a4350}
+.vs-form input,.vs-form select{padding:13px 14px;border:1.5px solid #cfc8d4;border-radius:12px;font:500 17px Assistant,Heebo,Arial,sans-serif;background:#fff;color:#1f1a24}
+.vs-form input:focus,.vs-form select:focus{outline:3px solid var(--vs-a);outline-offset:1px;border-color:var(--vs-a)}
+.vs-form input[aria-invalid=true]{border-color:#c0261f}
+.vs-btn{margin-top:6px;padding:15px 24px;border:0;border-radius:99px;background:var(--vs-a);color:var(--vs-on);font:700 18px Rubik,sans-serif;cursor:pointer;transition:transform .2s,filter .2s}
+.vs-btn:hover{transform:translateY(-3px);filter:brightness(.94)}
+.vs-btn:focus-visible{outline:3px solid #1f1a24;outline-offset:3px}
+.vs-ok{min-height:1.4em;font-weight:700;color:#1d6b3f;margin:0}
+.vs-fine{font-size:13px;color:#6a6370;margin:0}
+@keyframes ping{70%{box-shadow:0 0 0 10px #3ad07a00}100%{box-shadow:0 0 0 0 #3ad07a00}}
+@media(max-width:860px){.vs{grid-template-columns:1fr}.fx-back{font-size:12px;padding:8px 13px}}
+.fx-notes details summary{list-style:none;cursor:pointer;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;padding:6px 0}
+.fx-notes details summary::-webkit-details-marker{display:none}
+.fx-notes details summary b{font:700 clamp(24px,3vw,40px) Rubik,sans-serif}
+.fx-notes details summary i{font-style:normal;font:300 34px Rubik;margin-inline-start:auto;transition:transform .3s}
+.fx-notes details[open] summary i{transform:rotate(45deg)}
+.fx-notes details dl{margin-top:26px}
+.fx-notes summary:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.fx-fine{margin-top:26px;font-size:14px}
+.fx-fine a{text-decoration:underline}
+.fx-foot{background:var(--n-bg,#111);}
+
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.fx-foot{background:#111;color:#f5f2ea;font-size:14px}.fx-foot a{color:inherit;text-decoration:underline}
+.burger-brand .vs-hours tr.today th,.burger-brand .vs-hours tr.today td{color:#ff7a62}
+html:has(.burger-brand){overflow-x:clip}
