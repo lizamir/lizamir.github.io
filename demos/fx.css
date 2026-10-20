@@ -189,3 +189,38 @@
 .fx-foot{background:#111;color:#f5f2ea;font-size:14px}.fx-foot a{color:inherit;text-decoration:underline}
 .burger-brand .vs-hours tr.today th,.burger-brand .vs-hours tr.today td{color:#ff7a62}
 html:has(.burger-brand){overflow-x:clip}
+
+/* ---------- cinematic heroes ---------- */
+.jewelry .landing-hero,.school .landing-hero{position:relative;display:grid;direction:rtl;grid-template-columns:1fr;min-height:min(88svh,780px);padding:0;gap:0;isolation:isolate;overflow:hidden;align-items:center}
+.jewelry .landing-hero figure,.school .landing-hero figure{position:absolute;inset:0;margin:0;z-index:-2}
+.jewelry .landing-hero figure img,.school .landing-hero figure img{width:100%;height:100%;max-height:none;object-fit:cover;border-radius:0;transform:scale(1.06);animation:kenburns 18s ease-in-out infinite alternate}
+.jewelry .landing-hero figcaption,.school .landing-hero figcaption{display:none}
+.jewelry .landing-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(270deg,#0c0c0bf2 0,#0c0c0bd0 36%,#0c0c0b22 80%),linear-gradient(0deg,#0c0c0bcc,transparent 40%)}
+.jewelry .hero-text,.school .hero-text{padding:clamp(54px,8vw,130px) 6vw;max-width:680px;position:relative}
+.school .hero-text{background:#fff9e8ee;border-radius:34px;margin:clamp(24px,6vw,80px);padding:clamp(28px,4vw,56px);backdrop-filter:blur(8px);box-shadow:0 30px 60px -30px #252356aa;max-width:600px}
+.jewelry .hero-text h1{text-shadow:0 2px 30px #000a}
+@keyframes kenburns{to{transform:scale(1.14) translate(-1.5%,1%)}}
+@media(max-width:700px){
+  .jewelry .landing-hero,.school .landing-hero{min-height:92svh;align-items:end}
+  .jewelry .landing-hero::after{background:linear-gradient(0deg,#0c0c0bf5 0,#0c0c0bd8 45%,#0c0c0b30 100%)}
+  .jewelry .hero-text{padding:40px 6vw 44px}
+  .school .hero-text{margin:16px;padding:26px 22px}
+}
+/* glow + scoop: image first and a card that overlaps it on phones */
+@media(max-width:700px){
+  .beauty-hero{display:flex;flex-direction:column-reverse}
+  .beauty-visual{min-height:58svh!important;border-radius:0 0 80px 0}
+  .beauty-copy{margin-top:-46px;border-radius:34px 34px 0 0;position:relative;z-index:3;box-shadow:0 -20px 40px -20px #33253855}
+  .gelato-hero{display:flex;flex-direction:column-reverse}
+  .gelato-photo{height:54svh!important;transform:none!important;border-radius:0 0 90px 90px!important;margin:-20px -6vw 0}
+  .gelato-title{background:#fffdf0;border-radius:34px 34px 0 0;padding:26px 6vw 0!important;margin:-40px -6vw 0;position:relative;z-index:3}
+}
+.fx-strip{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;justify-content:center;padding:14px 6vw;background:var(--vs-bg);color:var(--vs-ink);font:600 15px/1.2 Rubik,Heebo,Arial,sans-serif;border-block:1px solid #8883}
+.fx-strip a{text-decoration:none}
+.fx-strip span,.fx-strip a{display:inline-flex;align-items:center;gap:8px}
+.fx-strip .fx-cta{padding:8px 18px;border-radius:99px;background:var(--vs-a);color:var(--vs-on);font-weight:800}
+.fx-strip .dot{width:9px;height:9px;border-radius:50%;background:#9a9a9a;display:inline-block}
+.fx-strip .dot.on{background:#3ad07a}
+@media(max-width:700px){.fx-strip{font-size:13.5px;gap:8px 16px;padding:12px 5vw}}
+.a11y-nomotion .landing-hero figure img{animation:none}
+@media(prefers-reduced-motion:reduce){.landing-hero figure img{animation:none!important}}

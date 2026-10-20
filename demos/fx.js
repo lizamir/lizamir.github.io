@@ -263,3 +263,28 @@
     form.reset();
   });
 })();
+
+/* ---- live info strip under the hero ---- */
+(() => {
+  const vs = document.querySelector("#visit");
+  const hero = document.querySelector(".landing-hero,.beauty-hero,.gelato-hero,.burger-hero");
+  if (!vs || !hero || document.querySelector(".fx-strip")) return;
+  const strip = document.createElement("div");
+  strip.className = "fx-strip";
+  strip.setAttribute("style", vs.getAttribute("style") || "");
+  const addr = vs.querySelector(".vs-addr b")?.textContent || "";
+  const tel = vs.querySelector(".vs-addr a[href^=tel]");
+  const hasOpen = !!vs.querySelector("[data-open]");
+  const date = vs.dataset.countdown ? "יום חמישי, 26.11 · 08:30 עד 16:00" : "";
+  strip.innerHTML = `<span>${addr}</span><span>${hasOpen ? '<i class="dot" data-sdot></i><b data-sopen></b>' : date}</span>${tel ? `<a href="${tel.getAttribute("href")}" dir="ltr">${tel.textContent}</a>` : ""}<a class="fx-cta" href="#visit">${vs.dataset.countdown ? "להרשמה" : "ליצירת קשר"}</a>`;
+  hero.insertAdjacentElement("afterend", strip);
+  if (hasOpen) {
+    const sync = () => {
+      const o = vs.querySelector("[data-open]");
+      strip.querySelector("[data-sopen]").textContent = o.textContent;
+      strip.querySelector("[data-sdot]").classList.toggle("on", o.classList.contains("on"));
+    };
+    sync();
+    setInterval(sync, 5000);
+  }
+})();
