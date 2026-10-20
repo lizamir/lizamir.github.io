@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,95590,t=>{"use strict";var n=t.i(43476);t.s(["default",0,function(){return(0,n.jsx)("button",{type:"button",className:"btn btn-ink btn-sm",onClick:()=>window.print(),children:"הדפסה או שמירה כ‑PDF"})}])}]);
