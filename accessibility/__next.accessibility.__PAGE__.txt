@@ -1,53 +1,51 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/2j5yyhmakwc_8.js"
-3:I[47420,["$2"],"default"]
-4:I[69268,["$2"],"default"]
-5:I[39756,["$2"],"default"]
-6:I[37457,["$2"],"default"]
-7:I[22016,["$2"],""]
-8:I[52906,["$2"],"default"]
-16:"ViewportBoundary"
+2:"/_next/static/chunks/1ttcfeaa851y9.js"
+3:I[39756,["$2"],"default"]
+4:I[37457,["$2"],"default"]
+5:I[22016,["$2"],""]
+6:I[52906,["$2"],"default"]
+14:"ViewportBoundary"
+15:I[97367,["$2"],"$14"]
+16:"MetadataBoundary"
 17:I[97367,["$2"],"$16"]
-18:"MetadataBoundary"
-19:I[97367,["$2"],"$18"]
-1a:"$Sreact.suspense"
-:HL["/_next/static/chunks/2kjacfmm4koe2.css","style"]
-a:X
-d:X
-d:C
-e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"legal","children":[["$","header",null,{"className":"legal-head","children":["$","div",null,{"className":"container","children":[["$","$L7",null,{"href":"/","className":"brand","aria-label":"Liz Code and Color, לדף הבית","children":[["$","span",null,{"children":"LIZ"}],["$","i",null,{}],"CODE&COLOR"]}],["$","$L7",null,{"href":"/","className":"btn btn-ghost btn-sm","children":["$","span",null,{"children":"חזרה לאתר"}]}]]}]}],["$","main",null,{"id":"main","className":"container legal-body","children":[["$","p",null,{"className":"eyebrow","children":"ACCESSIBILITY"}],["$","h1",null,{"className":"title","children":"הצהרת נגישות"}],["$","p",null,{"className":"lead","children":"אני רוצה שכל אחד ואחת יוכלו להכיר את העבודות שלי ולפנות אליי, בלי קשר ליכולות או למכשיר. כך האתר בנוי:"}],["$","section",null,{"children":[["$","h2",null,{"children":"מה נעשה"}],["$","ul",null,{"children":[["$","li",null,{"children":"מבנה כותרות וסימון (landmarks) ברורים, קישור ״דילוג לתוכן הראשי״, וניווט מלא במקלדת עם סימון מיקוד בולט."}],["$","li",null,{"children":"ניגודיות צבעים נבדקה מול רמה AA של תקן WCAG 2.1, בכל ארבע ערכות הצבעים של האתר."}],["$","li",null,{"children":"תפריט נגישות בפינת המסך: הגדלת טקסט (ארבע דרגות), ניגודיות גבוהה, הדגשת קישורים, ריווח שורות ואותיות ועצירת אנימציות."}],"$Lf","$L10","$L11"]}]]}],"$L12","$L13"]}]]}],null,"$L14"]}],"p":"$@15","v":null,"s":"$a"}}]]
-b:[["children",{"s":"accessibility","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2kjacfmm4koe2.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2j5yyhmakwc_8.js","async":true}]],["$","html",null,{"lang":"he","dir":"rtl","className":"epg8_q_variable Cd-IYa_variable N7OoOG_variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;try{d.classList.add('js');var t=localStorage.getItem('liz-theme');if(t)d.dataset.theme=t;var s=JSON.parse(localStorage.getItem('liz-a11y')||'{}');if(s.size)d.dataset.size=s.size;if(s.contrast)d.classList.add('a11y-contrast');if(s.motion)d.classList.add('a11y-nomotion');if(s.links)d.classList.add('a11y-links');if(s.spacing)d.classList.add('a11y-spacing')}catch(e){d.classList.add('js')}})();"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://lizamir.github.io/#liz\",\"name\":\"Liz Hajage\",\"alternateName\":\"ליז חאג׳ג׳\",\"jobTitle\":\"Full-Stack Developer, AI & Automation\",\"url\":\"https://lizamir.github.io\",\"email\":\"mailto:lizhajage@gmail.com\",\"telephone\":\"+972546887442\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Jerusalem\",\"addressCountry\":\"IL\"},\"sameAs\":[\"https://www.linkedin.com/in/liz-hajage/\",\"https://github.com/lizamir\"],\"knowsAbout\":[\"React\",\"Next.js\",\"TypeScript\",\"Supabase\",\"n8n\",\"AI agents\",\"Workato\",\"MuleSoft\",\"Web accessibility\"],\"alumniOf\":{\"@type\":\"EducationalOrganization\",\"name\":\"B.Sc. Electrical and Electronics Engineering\"}},{\"@type\":\"WebSite\",\"@id\":\"https://lizamir.github.io/#site\",\"url\":\"https://lizamir.github.io\",\"name\":\"Liz Code & Color\",\"inLanguage\":\"he\",\"publisher\":{\"@id\":\"https://lizamir.github.io/#liz\"}}]}"}}]]}],["$","body",null,{"children":[["$","nav",null,{"aria-label":"דילוג לתוכן","children":["$","a",null,{"className":"skip-link","href":"#main","children":"דילוג לתוכן הראשי"}]}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","main",null,{"id":"main","className":"nf","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"className":"display","children":["הדף הזה ",["$","em",null,{"children":"הלך לאיבוד."}]]}],["$","p",null,{"className":"lead","children":"אולי הקישור ישן, ואולי הקלדה קטנה. הנה הדרך חזרה."}],["$","div",null,{"className":"nf-actions","children":[["$","$L7",null,{"className":"btn btn-lime","href":"/","children":"לדף הבית"}],["$","$L7",null,{"className":"btn btn-ghost","href":"/#work","children":["$","span",null,{"children":"לעבודות"}]}]]}]]}],[]]}],["$","$L8",null,{}]]}]]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#faf9fc","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#251c3a","media":"(prefers-color-scheme: dark)"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"הצהרת נגישות | Liz Code & Color"}],["$","meta","1",{"name":"description","content":"הצהרת הנגישות של האתר של ליז חאג׳ג׳: מה נעשה, מגבלות ידועות ואיך פונים."}],["$","link","2",{"rel":"author","href":"https://lizamir.github.io"}],["$","meta","3",{"name":"author","content":"ליז חאג׳ג׳"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"מפתחת Full Stack,פיתוח אתרים,React,Next.js,אוטומציות,n8n,סוכני AI,ירושלים,פרילנס"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","link","7",{"rel":"canonical","href":"https://lizamir.github.io/accessibility/"}],["$","meta","8",{"property":"og:title","content":"Liz Code & Color | ליז חאג׳ג׳, מפתחת Full‑Stack, AI ואוטומציות"}],["$","meta","9",{"property":"og:description","content":"מפתחת Full‑Stack ומיישמת AI עם לב של מעצבת: אתרים, מערכות, סוכני AI ואוטומציות לעסקים ולצוותים. React, Next.js, Supabase, n8n. ירושלים."}],"$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29"]}]}],null]}],"$L2a"]}],"p":"$@2b","v":null,"s":"$a"}},"a":"$@2c","u":"$@2d","b":"n8_9fNCt6Ld6e_Mj1hob4"}
-2e:I[97367,["$2"],"OutletBoundary"]
-30:I[27201,["$2"],"IconMark"]
-f:["$","li",null,{"children":"האתר מכבד את הגדרת ״הפחתת תנועה״ של המכשיר: הגלילה החלקה, הרקע התנועתי והאנימציות נעצרים והתוכן זהה."}]
-10:["$","li",null,{"children":"כפתורים וקישורים בגודל נוח למגע (לפחות 44 פיקסלים), והאתר מותאם לטלפון, לטאבלט ולמחשב."}]
-11:["$","li",null,{"children":"אין חובה להשתמש בעכבר: גם סינון העבודות, החלפת הצבעים וטופס יצירת הקשר פועלים במקלדת."}]
-12:["$","section",null,{"children":[["$","h2",null,{"children":"מגבלות ידועות"}],["$","ul",null,{"children":[["$","li",null,{"children":"הדמואים של הפרויקטים (בתיקייה demos) נבנו בזמנים שונים, ורמת הנגישות שלהם משתנה. בדמו של גנלי נעשתה בדיקה מלאה."}],["$","li",null,{"children":"הצהרה זו נכתבה על ידי בעלת האתר ואינה מחליפה בדיקה של גורם חיצוני. אם תיתקלו בבעיה, אשמח לתקן."}]]}]]}]
-13:["$","section",null,{"children":[["$","h2",null,{"children":"פנייה בנושא נגישות"}],["$","ul",null,{"children":[["$","li",null,{"children":["מייל: ",["$","a",null,{"href":"mailto:lizhajage@gmail.com","children":"lizhajage@gmail.com"}]]}],["$","li",null,{"children":["וואטסאפ:"," ",["$","a",null,{"href":"https://wa.me/972546887442","children":["$","bdi",null,{"children":"0546887442"}]}]]}],["$","li",null,{"children":"עדכון אחרון של ההצהרה: אוקטובר 2026"}]]}]]}]
-14:["$","$L2e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
-1b:["$","meta","10",{"property":"og:url","content":"https://lizamir.github.io/"}]
-1c:["$","meta","11",{"property":"og:site_name","content":"Liz Code & Color"}]
-1d:["$","meta","12",{"property":"og:locale","content":"he_IL"}]
-1e:["$","meta","13",{"property":"og:image","content":"https://lizamir.github.io/og.png"}]
-1f:["$","meta","14",{"property":"og:image:width","content":"1200"}]
-20:["$","meta","15",{"property":"og:image:height","content":"630"}]
-21:["$","meta","16",{"property":"og:image:alt","content":"Liz Code & Color: אני הופכת רעיונות לאתרים שאי אפשר לפספס"}]
-22:["$","meta","17",{"property":"og:type","content":"website"}]
-23:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
-24:["$","meta","19",{"name":"twitter:title","content":"Liz Code & Color | ליז חאג׳ג׳, מפתחת Full‑Stack, AI ואוטומציות"}]
-25:["$","meta","20",{"name":"twitter:description","content":"מפתחת Full‑Stack ומיישמת AI עם לב של מעצבת: אתרים, מערכות, סוכני AI ואוטומציות לעסקים ולצוותים. React, Next.js, Supabase, n8n. ירושלים."}]
-26:["$","meta","21",{"name":"twitter:image","content":"https://lizamir.github.io/og.png"}]
-27:["$","link","22",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
-28:["$","link","23",{"rel":"icon","href":"/icon.svg?icon.40gkqsw261184.svg","sizes":"any","type":"image/svg+xml"}]
-29:["$","$L30","24",{}]
-2a:["$","meta",null,{"name":"next-size-adjust","content":""}]
-a:300
-2f:null
-2d:true
-a:C
-2c:0
-c:"$undefined"
-9:"$undefined"
-2b:"$undefined"
-15:"$undefined"
+18:"$Sreact.suspense"
+:HL["/_next/static/chunks/2acx99fst4ql9.css","style"]
+8:X
+b:X
+b:C
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"legal","children":[["$","header",null,{"className":"legal-head","children":["$","div",null,{"className":"container","children":[["$","$L5",null,{"href":"/","className":"brand","aria-label":"Liz Code and Color, לדף הבית","children":[["$","span",null,{"children":"LIZ"}],["$","i",null,{}],"CODE&COLOR"]}],["$","$L5",null,{"href":"/","className":"btn btn-ghost btn-sm","children":["$","span",null,{"children":"חזרה לאתר"}]}]]}]}],["$","main",null,{"id":"main","className":"container legal-body","children":[["$","p",null,{"className":"eyebrow","children":"ACCESSIBILITY"}],["$","h1",null,{"className":"title","children":"הצהרת נגישות"}],["$","p",null,{"className":"lead","children":"אני רוצה שכל אחד ואחת יוכלו להכיר את העבודות שלי ולפנות אליי, בלי קשר ליכולות או למכשיר. כך האתר בנוי:"}],["$","section",null,{"children":[["$","h2",null,{"children":"מה נעשה"}],["$","ul",null,{"children":[["$","li",null,{"children":"מבנה כותרות וסימון (landmarks) ברורים, קישור ״דילוג לתוכן הראשי״, וניווט מלא במקלדת עם סימון מיקוד בולט."}],["$","li",null,{"children":"ניגודיות צבעים נבדקה מול רמה AA של תקן WCAG 2.1, בכל ארבע ערכות הצבעים של האתר."}],["$","li",null,{"children":"תפריט נגישות בפינת המסך: הגדלת טקסט (ארבע דרגות), ניגודיות גבוהה, הדגשת קישורים, ריווח שורות ואותיות ועצירת אנימציות."}],"$Ld","$Le","$Lf"]}]]}],"$L10","$L11"]}]]}],null,"$L12"]}],"p":"$@13","v":null,"s":"$8"}}]]
+9:[["children",{"s":"accessibility","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@a","v":"$b","s":"$8"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2acx99fst4ql9.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/1ttcfeaa851y9.js","async":true}]],["$","html",null,{"lang":"he","dir":"rtl","className":"epg8_q_variable Cd-IYa_variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;try{d.classList.add('js');var s=JSON.parse(localStorage.getItem('liz-a11y')||'{}');if(s.size)d.dataset.size=s.size;if(s.contrast)d.classList.add('a11y-contrast');if(s.motion)d.classList.add('a11y-nomotion');if(s.links)d.classList.add('a11y-links');if(s.spacing)d.classList.add('a11y-spacing')}catch(e){d.classList.add('js')}})();"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://lizamir.github.io/#liz\",\"name\":\"Liz Hajage\",\"alternateName\":\"ליז חאג׳ג׳\",\"jobTitle\":\"Full-Stack Developer, AI & Automation\",\"url\":\"https://lizamir.github.io\",\"email\":\"mailto:lizhajage@gmail.com\",\"telephone\":\"+972546887442\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Jerusalem\",\"addressCountry\":\"IL\"},\"sameAs\":[\"https://www.linkedin.com/in/liz-hajage/\",\"https://github.com/lizamir\"],\"knowsAbout\":[\"React\",\"Next.js\",\"TypeScript\",\"Supabase\",\"n8n\",\"AI agents\",\"Workato\",\"MuleSoft\",\"Web accessibility\"],\"alumniOf\":{\"@type\":\"EducationalOrganization\",\"name\":\"B.Sc. Electrical and Electronics Engineering\"}},{\"@type\":\"WebSite\",\"@id\":\"https://lizamir.github.io/#site\",\"url\":\"https://lizamir.github.io\",\"name\":\"Liz Code & Color\",\"inLanguage\":\"he\",\"publisher\":{\"@id\":\"https://lizamir.github.io/#liz\"}}]}"}}]]}],["$","body",null,{"children":[["$","nav",null,{"aria-label":"דילוג לתוכן","children":["$","a",null,{"className":"skip-link","href":"#main","children":"דילוג לתוכן הראשי"}]}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[["$","main",null,{"id":"main","className":"nf","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"className":"title","children":["הדף הזה ",["$","em",null,{"children":"הלך לאיבוד."}]]}],["$","p",null,{"className":"lead","children":"אולי הקישור ישן, ואולי הקלדה קטנה. הנה הדרך חזרה."}],["$","div",null,{"className":"nf-actions","children":[["$","$L5",null,{"className":"btn btn-lime","href":"/","children":"לדף הבית"}],["$","$L5",null,{"className":"btn btn-ghost","href":"/#work","children":["$","span",null,{"children":"לעבודות"}]}]]}]]}],[]]}],["$","$L6",null,{}]]}]]}]]}],"p":"$@7","v":null,"s":"$8"},"c":"$Q9"},"h":{"r":["$","$1","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#f7f5f1","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#21172f","media":"(prefers-color-scheme: dark)"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$18",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"הצהרת נגישות | Liz Code & Color"}],["$","meta","1",{"name":"description","content":"הצהרת הנגישות של האתר של ליז חאג׳ג׳: מה נעשה, מגבלות ידועות ואיך פונים."}],["$","link","2",{"rel":"author","href":"https://lizamir.github.io"}],["$","meta","3",{"name":"author","content":"ליז חאג׳ג׳"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"מפתחת Full Stack,פיתוח אתרים,React,Next.js,אוטומציות,n8n,סוכני AI,ירושלים,פרילנס"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","link","7",{"rel":"canonical","href":"https://lizamir.github.io/accessibility/"}],["$","meta","8",{"property":"og:title","content":"Liz Code & Color | ליז חאג׳ג׳, מפתחת Full‑Stack, AI ואוטומציות"}],["$","meta","9",{"property":"og:description","content":"מפתחת Full‑Stack ומיישמת AI עם לב של מעצבת: אתרים, מערכות, סוכני AI ואוטומציות לעסקים ולצוותים. React, Next.js, Supabase, n8n. ירושלים."}],"$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27"]}]}],null]}],"$L28"]}],"p":"$@29","v":null,"s":"$8"}},"a":"$@2a","u":"$@2b","b":"yuw56um6S_Iwy3CooWU_E"}
+2c:I[97367,["$2"],"OutletBoundary"]
+2e:I[27201,["$2"],"IconMark"]
+d:["$","li",null,{"children":"האתר מכבד את הגדרת ״הפחתת תנועה״ של המכשיר: הגלילה החלקה, הרקע התנועתי והאנימציות נעצרים והתוכן זהה."}]
+e:["$","li",null,{"children":"כפתורים וקישורים בגודל נוח למגע (לפחות 44 פיקסלים), והאתר מותאם לטלפון, לטאבלט ולמחשב."}]
+f:["$","li",null,{"children":"אין חובה להשתמש בעכבר: גם סינון העבודות, החלפת הצבעים וטופס יצירת הקשר פועלים במקלדת."}]
+10:["$","section",null,{"children":[["$","h2",null,{"children":"מגבלות ידועות"}],["$","ul",null,{"children":[["$","li",null,{"children":"הדמואים של הפרויקטים (בתיקייה demos) נבנו בזמנים שונים, ורמת הנגישות שלהם משתנה. בדמו של גנלי נעשתה בדיקה מלאה."}],["$","li",null,{"children":"הצהרה זו נכתבה על ידי בעלת האתר ואינה מחליפה בדיקה של גורם חיצוני. אם תיתקלו בבעיה, אשמח לתקן."}]]}]]}]
+11:["$","section",null,{"children":[["$","h2",null,{"children":"פנייה בנושא נגישות"}],["$","ul",null,{"children":[["$","li",null,{"children":["מייל: ",["$","a",null,{"href":"mailto:lizhajage@gmail.com","children":"lizhajage@gmail.com"}]]}],["$","li",null,{"children":["וואטסאפ:"," ",["$","a",null,{"href":"https://wa.me/972546887442","children":["$","bdi",null,{"children":"0546887442"}]}]]}],["$","li",null,{"children":"עדכון אחרון של ההצהרה: אוקטובר 2026"}]]}]]}]
+12:["$","$L2c",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]
+19:["$","meta","10",{"property":"og:url","content":"https://lizamir.github.io/"}]
+1a:["$","meta","11",{"property":"og:site_name","content":"Liz Code & Color"}]
+1b:["$","meta","12",{"property":"og:locale","content":"he_IL"}]
+1c:["$","meta","13",{"property":"og:image","content":"https://lizamir.github.io/og.png"}]
+1d:["$","meta","14",{"property":"og:image:width","content":"1200"}]
+1e:["$","meta","15",{"property":"og:image:height","content":"630"}]
+1f:["$","meta","16",{"property":"og:image:alt","content":"Liz Code & Color: עיצוב עם אופי. קוד עם עומק."}]
+20:["$","meta","17",{"property":"og:type","content":"website"}]
+21:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
+22:["$","meta","19",{"name":"twitter:title","content":"Liz Code & Color | ליז חאג׳ג׳, מפתחת Full‑Stack, AI ואוטומציות"}]
+23:["$","meta","20",{"name":"twitter:description","content":"מפתחת Full‑Stack ומיישמת AI עם לב של מעצבת: אתרים, מערכות, סוכני AI ואוטומציות לעסקים ולצוותים. React, Next.js, Supabase, n8n. ירושלים."}]
+24:["$","meta","21",{"name":"twitter:image","content":"https://lizamir.github.io/og.png"}]
+25:["$","link","22",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+26:["$","link","23",{"rel":"icon","href":"/icon.svg?icon.40gkqsw261184.svg","sizes":"any","type":"image/svg+xml"}]
+27:["$","$L2e","24",{}]
+28:["$","meta",null,{"name":"next-size-adjust","content":""}]
+8:300
+2d:null
+2b:true
+8:C
+2a:0
+a:"$undefined"
+7:"$undefined"
+29:"$undefined"
+13:"$undefined"

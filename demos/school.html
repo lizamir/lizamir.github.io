@@ -1,24 +1,81 @@
 <!doctype html>
-<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PLAYDAY — דף נחיתה ופוסטר | Liz Code & Color</title><meta name="description" content="פרויקט עיצוב ופיתוח: PLAYDAY. דף נחיתה ופוסטר מתוך תיק העבודות של ליז."><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet"><link href="landing.css" rel="stylesheet"><meta name="robots" content="noindex,follow"><link rel="stylesheet" href="fx.css"></head>
-<body class="school"><div class="demo-ribbon"><a href="/#brand-worlds">← לתיק העבודות של ליז</a><span>עיצוב ופיתוח · Liz Code & Color</span></div>
-<header class="landing-nav"><a class="wordmark" href="#" dir="ltr">PLAYDAY</a><nav aria-label="ניווט בדף"><a href="#collection">הפעילויות</a><a href="#story">הסיפור</a><a href="#poster">הפוסטר</a></nav><a class="nav-cta" href="#visit">הרשמה ↙</a></header>
-<main><section class="landing-hero"><div class="hero-text"><p class="eyebrow">MAKE ROOM FOR FUN</p><h1>היום לומדים<br>לעשות כיף!</h1><p class="sub">יום אחד. המון רגעים טובים.</p><p>משחקים, יצירה, תנועה וחברים — עיצוב ליום שיא בית ספרי שמוציא את כולם מהשגרה.</p><a class="button" href="#collection">מה מחכה לנו? ↓</a></div><figure><img src="../assets/school.webp" width="1024" height="1024" alt="יצירה צבעונית ליום כיף בבית ספר"><figcaption>PLAYDAY / THE COLLECTION</figcaption></figure></section>
-<div class="ticker" aria-hidden="true">MAKE ROOM FOR FUN ✦ PLAYDAY ✦ MAKE ROOM FOR FUN ✦ PLAYDAY</div>
-<section id="collection" class="collection"><div class="section-heading"><span>01 / EXPLORE</span><h2>תחנה חדשה. הרפתקה חדשה.</h2></div><div class="collection-grid"><article><span>01 / MOVE</span><h3>זזים ביחד</h3><p>משחקי צוות ואתגרים משותפים בחצר.</p></article><article><span>02 / CREATE</span><h3>יוצרים משהו משלנו</h3><p>צבעים, רעיונות וסדנת יצירה עם מקום לדמיון.</p></article><article><span>03 / PLAY</span><h3>פשוט משחקים</h3><p>פעילות קבוצתית שמחברת בין הילדים.</p></article></div></section>
-<section class="fx fx-play" id="plan" aria-labelledby="fxp-h"><p class="eyebrow">DESIGN THE DAY</p><h2 id="fxp-h">תכננו את <em>יום הפסטיבל.</em></h2><p>גררו מדבקות לשלושה חלקי היום. בלי עכבר? הקישו על מדבקה והיא תעבור למקום הבא.</p>
-<div class="planner"><div class="slot"><h3>בוקר</h3><small>08:30 עד 11:00</small></div><div class="slot"><h3>צהריים</h3><small>11:00 עד 13:30</small></div><div class="slot"><h3>אחר הצהריים</h3><small>13:30 עד 16:00</small></div></div>
-<div class="tray" id="tray" aria-label="מדבקות פעילויות"></div><p class="plan-sum" id="planSum" aria-live="polite"></p></section><section id="story" class="story"><span>02 / THE STORY</span><h2>כל אחד מביא<br>משהו לחגיגה.</h2><p>יום כיף טוב משאיר מקום לסוגים שונים של השתתפות: לרוץ, ליצור, לחשוב או להצטרף בקצב שלך.</p></section>
-<section id="poster" class="poster-section"><div class="poster-intro"><span>03 / THE CAMPAIGN</span><h2>אותו מותג.<br>נוכחות נוספת.</h2><p>פוסטר מעוצב שממשיך את השפה של האתר גם בקמפיין ובסושיאל.</p><a class="button" href="school-poster.html">פתיחת הפוסטר בגודל מלא ↗</a></div><a class="campaign-poster" href="school-poster.html" aria-label="פתיחת הפוסטר של PLAYDAY"><img src="../assets/school.webp" alt="" loading="lazy"><div class="poster-copy"><small>PLAYDAY / CAMPAIGN</small><strong>יום של<br>כיף.<br>ביחד!</strong><p>PLAYDAY · יום שיא בית ספרי</p></div></a></section>
+<html lang="he" dir="rtl" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PLAYDAY יום כיף | יום אחד. מלא אפשרויות.</title>
+<meta name="description" content="PLAYDAY: ימי פעילות ופסטיבלים לבתי ספר. בוחרים פעילויות, בונים לוח זמנים, מדפיסים או שולחים למארגנים. עיצוב ופיתוח: ליז חאג׳ג׳.">
+<meta name="robots" content="noindex,follow">
+<meta name="theme-color" content="#3152C9">
+<link rel="preload" as="image" href="../assets/brands/play-960.webp" imagesrcset="../assets/brands/play-640.webp 640w, ../assets/brands/play-960.webp 960w, ../assets/brands/play-1536.webp 1536w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="brand/base.css">
+<link rel="stylesheet" href="brand/playday.css">
+</head>
+<body>
+<a class="skip" href="#main">דילוג לתוכן</a>
+<header class="ph">
+  <div class="wrap ph-in">
+    <a class="ph-logo" href="#top" dir="ltr" aria-label="PLAYDAY, לראש העמוד">PLAYDAY</a>
+    <nav aria-label="ניווט ראשי"><a href="#areas">תחומי פעילות</a><a href="#planner">בונים יום</a><a href="#contact">צור קשר</a></nav>
+    <a class="ph-cta" href="#planner">מתחילים לתכנן <span aria-hidden="true">←</span></a>
+  </div>
+</header>
 
-</main><section class="vs" id="visit" aria-labelledby="vs-h" style="--vs-bg:#ffe17a;--vs-ink:#252356;--vs-a:#5c47c9;--vs-on:#fff" data-hours='{"4": ["08:30-16:00"]}' data-countdown="2026-11-26T08:30:00+02:00">
-<div class="vs-info"><p class="eyebrow">SAVE THE DATE</p><h2 id="vs-h">נפגשים <em>בפסטיבל.</em></h2><div class="vs-count" aria-live="off"><b data-cd="d">--</b><span>ימים</span><b data-cd="h">--</b><span>שעות</span><b data-cd="m">--</b><span>דקות</span></div>
-<address class="vs-addr"><b>בית ספר הדרים, רחוב הנשיא 14, רמת השרון</b><span>חניה בחצר בית הספר ובחניון העירוני</span><a href="tel:035550109" dir="ltr">03-555-0109</a><a href="mailto:festival@playday.co.il" dir="ltr">festival@playday.co.il</a></address>
-<table class="vs-hours"><caption class="sr-only">שעות פעילות</caption><tr data-d="0"><th scope="row">ראשון</th><td dir="ltr">סגור</td></tr><tr data-d="1"><th scope="row">שני</th><td dir="ltr">סגור</td></tr><tr data-d="2"><th scope="row">שלישי</th><td dir="ltr">סגור</td></tr><tr data-d="3"><th scope="row">רביעי</th><td dir="ltr">סגור</td></tr><tr data-d="4"><th scope="row">חמישי</th><td dir="ltr">08:30–16:00</td></tr><tr data-d="5"><th scope="row">שישי</th><td dir="ltr">סגור</td></tr><tr data-d="6"><th scope="row">שבת</th><td dir="ltr">סגור</td></tr></table></div>
-<form class="vs-form" novalidate><h3>רישום משפחה</h3><label>שם ההורה<input name="name" type="text" placeholder="ישראלה ישראלי" required autocomplete="off"></label><label>טלפון<input name="tel" type="tel" placeholder="050-0000000" required autocomplete="off"></label><label>מספר ילדים<select name="kids" required><option>1</option><option>2</option><option>3</option><option>4+</option></select></label><button type="submit" class="vs-btn">נרשמים</button><p class="vs-ok" role="status" aria-live="polite"></p><p class="vs-fine">הפרטים נשמרים רק לצורך החזרה אליכם.</p></form></section><aside class="fx-notes" style="--n-bg:#ffe17a;--n-ink:#252356" aria-labelledby="fxn-h"><details><summary><span class="eyebrow">BEHIND THE DESIGN</span><b>איך האתר הזה נבנה</b> <i aria-hidden="true">+</i></summary><h2 id="fxn-h">איך מזמינים הורים לפסטיבל</h2><dl>
-<div><dt>הרעיון</dt><dd>יצירה וחופש. הפסטיבל נראה כמו פרויקט יצירה גדול, כדי שהילדים והדודים ירצו להשתתף.</dd></div>
-<div><dt>צבע וטיפוגרפיה</dt><dd><span class="sw"><i style="--c:#fff9e8" title="#fff9e8"></i><i style="--c:#252356" title="#252356"></i><i style="--c:#5c47c9" title="#5c47c9"></i><i style="--c:#ffe17a" title="#ffe17a"></i></span><code>#fff9e8</code> <code>#252356</code> <code>#5c47c9</code><br>Rubik בעגלגל, צבעי נייר גזור. האותיות והצורות נראות כמו חומרים שחתכו בידיים.</dd></div>
-<div><dt>קול המותג</dt><dd>ברור להורים, מצחיק לילדים. כל משפט מסביר מה, מתי, ומה לקחת.</dd></div>
-<div><dt>מה מחפשים בגוגל</dt><dd>“פסטיבל יצירה לילדים”, “יום כיף בית ספרי”. דף אירוע עם תאריך, שעות ומקום בתחילת העמוד, כדי שהורים ימצאו בלי לחפש.</dd></div>
-<div><dt>נוסחת הכותרת</dt><dd>PLAYDAY | פסטיבל יצירה ב[עיר]. תאריך ומקום במטא.</dd></div>
-<div><dt>האינטראקציה החתומה</dt><dd>לוח מדבקות שגוררים לשלושה חלקי יום, עם קונפטי נייר בכל נחיתה.</dd></div>
-</dl><p class="fx-fine">נתונים באתר, כולל כתובות ומספרי טלפון, הם נתוני דוגמה. <a href="/#contact">רוצים אתר כזה לעסק שלכם? בואו נדבר ↗</a></p></details></aside><footer class="fx-foot"><span>© 2026 PLAYDAY פסטיבל יצירה. כל הזכויות שמורות.</span><span>עיצוב ופיתוח: <a href="/#brand-worlds">Liz Code &amp; Color</a></span></footer><script src="fx.js" defer></script></body></html>
+<main id="main">
+  <section class="p-hero" id="top" aria-labelledby="p-h1">
+    <img class="p-hero-img" src="../assets/brands/play-960.webp" srcset="../assets/brands/play-640.webp 640w, ../assets/brands/play-960.webp 960w, ../assets/brands/play-1536.webp 1536w" sizes="100vw" width="1536" height="1024" alt="פסל משחקי מצורות עץ צבועות בכחול, אדום, צהוב וירוק" fetchpriority="high">
+    <div class="wrap p-hero-copy">
+      <h1 id="p-h1">יום אחד.<br>מלא אפשרויות.</h1>
+      <p>פסטיבלים וימי פעילות בבית ספר שמייצרים חוויות, מחברים אנשים ומגלים כישרונות.</p>
+      <a class="p-btn" href="#planner">בונים יום כיף <span aria-hidden="true">←</span></a>
+    </div>
+  </section>
+
+  <section class="p-areas" id="areas" aria-labelledby="p-a-h">
+    <div class="wrap">
+      <h2 id="p-a-h" class="sr-only">תחומי פעילות</h2>
+      <ul class="p-areas-list">
+        <li class="rv"><svg viewBox="0 0 120 100" aria-hidden="true"><path d="M20 78l-6-44 28 22 18-34 18 34 28-22-6 44z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M26 34l-8-14M60 14V2M94 34l8-14" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg><div><h3>משחק</h3><p>תחנות, משחקי שטח ותחרויות קבוצתיות.</p></div></li>
+        <li class="rv"><svg viewBox="0 0 120 100" aria-hidden="true"><path d="M14 74c10-40 36-48 52-34s-10 40-26 22 18-52 62-46M92 14l18 4-12 14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg><div><h3>תנועה</h3><p>סדנאות מחול, תנועה, ספורט ואתגר.</p></div></li>
+        <li class="rv"><svg viewBox="0 0 120 100" aria-hidden="true"><path d="M60 50c-30-30-48-12-30 4-18 14 0 34 30-4 30 38 48 18 30 4 18-16 0-34-30 4z" fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"/><path d="M40 14l6 12M82 14l-6 12M60 2v14" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg><div><h3>יצירה</h3><p>סדנאות, מתחמי יצירה וציורים משותפים.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="p-planner" id="planner" aria-labelledby="p-p-h">
+    <div class="wrap">
+      <header class="p-head rv"><p class="p-num" dir="ltr">01</p><h2 id="p-p-h">בונים יום כיף</h2><p>מוסיפים פעילויות ללוח הזמנים, מסדרים אותן כמו שרוצים, ורואים כמה זמן יוצא. אפשר להדפיס, להוריד או לשלוח למארגנים.</p></header>
+      <div class="p-grid">
+        <div class="p-pool rv" id="p-pool"></div>
+        <section class="p-schedule rv" id="schedule" aria-labelledby="p-s-h">
+          <div class="p-s-top">
+            <h3 id="p-s-h">לוח הזמנים שלי</h3>
+            <label class="p-start">שעת התחלה <input type="time" id="p-start" value="09:00"></label>
+          </div>
+          <ol class="p-list" id="p-list" aria-label="פעילויות בלוח הזמנים"></ol>
+          <p class="p-empty" id="p-empty">עוד אין פעילויות. הוסיפו מהרשימה.</p>
+          <p class="p-total" id="p-total" aria-live="polite"></p>
+          <div class="p-actions">
+            <button type="button" class="p-btn p-btn--ink" id="p-print">הדפסה</button>
+            <button type="button" class="p-btn p-btn--ghost" id="p-download">הורדת קובץ</button>
+            <a class="p-btn p-btn--ghost" id="p-send" href="#contact">שליחה למארגנים</a>
+            <button type="button" class="p-btn p-btn--text" id="p-clear">ניקוי</button>
+          </div>
+          <p class="p-status" id="p-status" role="status"></p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-contact" id="contact" aria-labelledby="p-c-h">
+    <div class="wrap p-contact-in rv">
+      <h2 id="p-c-h">בואו נארגן יחד.</h2>
+      <div><p>רוצים לדבר על יום הכיף שלכם? כתבו לנו.</p><a class="p-btn" data-wa="היי ליז, ראיתי את עמוד PLAYDAY בפורטפוליו ואשמח לשוחח." href="#contact">פנייה למארגנים <span aria-hidden="true">←</span></a><p class="p-note">הפנייה נשלחת לליז חאג׳ג׳, שעיצבה ופיתחה את העמוד.</p></div>
+    </div>
+  </section>
+</main>
+<footer class="credit"><div class="wrap"><span dir="ltr">© PLAYDAY</span><span>עיצוב ופיתוח: <a href="/">Liz Code &amp; Color</a></span></div></footer>
+<script src="brand/base.js" defer></script>
+<script src="brand/playday.js" defer></script>
+</body>
+</html>
