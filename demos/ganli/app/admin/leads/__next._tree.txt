@@ -1,4 +1,4 @@
-:HL["/demos/ganli/_next/static/chunks/3fx3m7ba630_2.css","style"]
+:HL["/demos/ganli/_next/static/chunks/1b5786hq_9xl8.css","style"]
 :HL["/demos/ganli/_next/static/media/Heebo_VariableFont_wght-s.p.3w-rg5m9s5chw.ttf","font",{"crossOrigin":"","type":"font/ttf"}]
 :HL["/demos/ganli/_next/static/media/d67f7d1ea94f7e92.p.09u328g9fwh01.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/demos/ganli/_next/static/media/e6e8ca0d998ffdf0.p.10kjp6e9th26d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -6,4 +6,4 @@
 3:[["children",{"s":"leads","h":96,"c":"$Q4"}]]
 2:[["children",{"s":"admin","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"app","h":96,"c":"$Q2"}]]
-0:{"b":"xuulvAGo6VB7puxvmV1Di","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"-auPE3lAQU2DRIQl2Fal0","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
