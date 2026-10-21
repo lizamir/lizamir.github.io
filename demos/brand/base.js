@@ -8,11 +8,14 @@
     a.target = "_blank";
     a.rel = "noreferrer";
   });
+  const nav = document.createElement("nav");
+  nav.setAttribute("aria-label", "חזרה לפורטפוליו");
   const pill = document.createElement("a");
   pill.className = "back-pill";
-  pill.href = "/#work";
+  pill.href = "/#brand-worlds";
   pill.textContent = "← לפורטפוליו של ליז";
-  document.body.appendChild(pill);
+  nav.appendChild(pill);
+  document.body.appendChild(nav);
   const els = [...document.querySelectorAll(".rv")];
   if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) {
     els.forEach((e) => e.setAttribute("data-in", ""));

@@ -216,7 +216,10 @@
   if (!$(".fx-back")) {
     const a = document.createElement("a");
     a.className = "fx-back"; a.href = "/#brand-worlds"; a.textContent = "← חזרה לפורטפוליו של ליז";
-    document.body.appendChild(a);
+    const nav = document.createElement("nav");
+    nav.setAttribute("aria-label", "חזרה לפורטפוליו");
+    nav.appendChild(a);
+    document.body.appendChild(nav);
   }
   const vs = $("#visit");
   if (!vs) return;
