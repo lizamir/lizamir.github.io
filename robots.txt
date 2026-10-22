@@ -1,4 +1,4 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://lizamir.github.io/sitemap.xml
+Sitemap: https://lizhajage.co.il/sitemap.xml
