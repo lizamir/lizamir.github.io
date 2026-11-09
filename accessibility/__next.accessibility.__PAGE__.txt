@@ -1,53 +1,59 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/2j5yyhmakwc_8.js"
-3:I[47420,["$2"],"default"]
-4:I[69268,["$2"],"default"]
+2:"/_next/static/chunks/39kjri2akwqrq.js"
+3:I[51461,["$2"],"default"]
+4:I[1721,["$2"],"default"]
 5:I[39756,["$2"],"default"]
 6:I[37457,["$2"],"default"]
 7:I[22016,["$2"],""]
-8:I[52906,["$2"],"default"]
-16:"ViewportBoundary"
-17:I[97367,["$2"],"$16"]
-18:"MetadataBoundary"
-19:I[97367,["$2"],"$18"]
-1a:"$Sreact.suspense"
-:HL["/_next/static/chunks/2-_rdk41tbktq.css","style"]
+8:I[42331,["$2"],"default"]
+17:"ViewportBoundary"
+18:I[97367,["$2"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$2"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/_next/static/chunks/3j2mcvsvlmkqn.css","style"]
+:HL["/_next/static/chunks/324xjxl3u_c74.css","style"]
 a:X
 d:X
 d:C
-e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"legal","children":[["$","header",null,{"className":"legal-head","children":["$","div",null,{"className":"container","children":[["$","$L7",null,{"href":"/","className":"brand","aria-label":"Liz Code and Color, לדף הבית","children":[["$","span",null,{"children":"LIZ"}],["$","i",null,{}],"CODE&COLOR"]}],["$","$L7",null,{"href":"/","className":"btn btn-ghost btn-sm","children":["$","span",null,{"children":"חזרה לאתר"}]}]]}]}],["$","main",null,{"id":"main","className":"container legal-body","children":[["$","p",null,{"className":"eyebrow","children":"ACCESSIBILITY"}],["$","h1",null,{"className":"title","children":"הצהרת נגישות"}],["$","p",null,{"className":"lead","children":"אני רוצה שכל אחד ואחת יוכלו להכיר את העבודות שלי ולפנות אליי, בלי קשר ליכולות או למכשיר. כך האתר בנוי:"}],["$","section",null,{"children":[["$","h2",null,{"children":"מה נעשה"}],["$","ul",null,{"children":[["$","li",null,{"children":"מבנה כותרות וסימון (landmarks) ברורים, קישור ״דילוג לתוכן הראשי״, וניווט מלא במקלדת עם סימון מיקוד בולט."}],["$","li",null,{"children":"ניגודיות צבעים נבדקה מול רמה AA של תקן WCAG 2.1, בכל ארבע ערכות הצבעים של האתר."}],["$","li",null,{"children":"תפריט נגישות בפינת המסך: הגדלת טקסט (ארבע דרגות), ניגודיות גבוהה, הדגשת קישורים, ריווח שורות ואותיות ועצירת אנימציות."}],"$Lf","$L10","$L11"]}]]}],"$L12","$L13"]}]]}],null,"$L14"]}],"p":"$@15","v":null,"s":"$a"}}]]
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-[100vh] bg-paper","children":[["$","header",null,{"className":"border-b border-b-line py-[18px]","children":["$","div",null,{"className":"container flex items-center justify-between","children":[["$","$L7",null,{"href":"/","className":"brand inline-flex items-center gap-0 [font:900_1.05rem/1_var(--font-display)] tracking-[-0.03em] [direction:ltr]","aria-label":"Liz Code and Color, לדף הבית","children":[["$","span",null,{"children":"LIZ"}],["$","i",null,{}],"CODE&COLOR"]}],["$","$L7",null,{"href":"/","className":"btn btn-ghost btn-sm","children":["$","span",null,{"children":"חזרה לאתר"}]}]]}]}],["$","main",null,{"id":"main","className":"container grid max-w-[780px] gap-[34px] [padding:70px_0_110px] [&_a]:text-accent-ink [&_a]:underline [&_a]:underline-offset-[0.2em] [&_h2]:mb-3 [&_h2]:text-[1.7rem] [&_ul]:grid [&_ul]:gap-2.5 [&_ul]:ps-[22px]","children":["$Lf","$L10","$L11","$L12","$L13","$L14"]}]]}],null,"$L15"]}],"p":"$@16","v":null,"s":"$a"}}]]
 b:[["children",{"s":"accessibility","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-_rdk41tbktq.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2j5yyhmakwc_8.js","async":true}]],["$","html",null,{"lang":"he","dir":"rtl","className":"epg8_q_variable Cd-IYa_variable N7OoOG_variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;try{d.classList.add('js');if(localStorage.getItem('liz-mode')==='night')d.dataset.mode='night';var s=JSON.parse(localStorage.getItem('liz-a11y')||'{}');if(s.size)d.dataset.size=s.size;if(s.contrast)d.classList.add('a11y-contrast');if(s.motion)d.classList.add('a11y-nomotion');if(s.links)d.classList.add('a11y-links');if(s.spacing)d.classList.add('a11y-spacing')}catch(e){d.classList.add('js')}})();"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://lizhajage.co.il/#liz\",\"name\":\"Liz Hajage\",\"alternateName\":\"ליז חג׳ג׳\",\"jobTitle\":\"Full-Stack Developer, AI & Automation\",\"url\":\"https://lizhajage.co.il\",\"email\":\"mailto:lizhajage@gmail.com\",\"telephone\":\"+972546887442\",\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"IL\"},\"sameAs\":[\"https://www.linkedin.com/in/liz-hajage/\",\"https://github.com/lizamir\"],\"knowsAbout\":[\"React\",\"Next.js\",\"TypeScript\",\"Supabase\",\"n8n\",\"AI agents\",\"Workato\",\"MuleSoft\",\"Web accessibility\"],\"alumniOf\":{\"@type\":\"EducationalOrganization\",\"name\":\"B.Sc. Electrical and Electronics Engineering\"}},{\"@type\":\"WebSite\",\"@id\":\"https://lizhajage.co.il/#site\",\"url\":\"https://lizhajage.co.il\",\"name\":\"Liz Code & Color\",\"inLanguage\":\"he\",\"publisher\":{\"@id\":\"https://lizhajage.co.il/#liz\"}}]}"}}]]}],["$","body",null,{"children":[["$","nav",null,{"aria-label":"דילוג לתוכן","children":["$","a",null,{"className":"skip-link","href":"#main","children":"דילוג לתוכן הראשי"}]}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","main",null,{"id":"main","className":"nf","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"className":"display","children":["הדף הזה ",["$","em",null,{"children":"הלך לאיבוד."}]]}],["$","p",null,{"className":"lead","children":"אולי הקישור ישן, ואולי הקלדה קטנה. הנה הדרך חזרה."}],["$","div",null,{"className":"nf-actions","children":[["$","$L7",null,{"className":"btn btn-lime","href":"/","children":"לדף הבית"}],["$","$L7",null,{"className":"btn btn-ghost","href":"/#work","children":["$","span",null,{"children":"לעבודות"}]}]]}]]}],[]]}],["$","$L8",null,{}]]}]]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fbf7f5","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#2c1520","media":"(prefers-color-scheme: dark)"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"הצהרת נגישות | Liz Code & Color"}],["$","meta","1",{"name":"description","content":"הצהרת הנגישות של האתר של ליז חג׳ג׳: מה נעשה, מגבלות ידועות ואיך פונים."}],["$","link","2",{"rel":"author","href":"https://lizhajage.co.il"}],["$","meta","3",{"name":"author","content":"ליז חג׳ג׳"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"בניית אתרים לעסקים,דף נחיתה,אתר תדמית,אוטומציות לעסקים,בוט וואטסאפ,קביעת תורים,מפתחת Full Stack"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","link","7",{"rel":"canonical","href":"https://lizhajage.co.il/accessibility/"}],["$","meta","8",{"property":"og:title","content":"Liz Code & Color | אתרים, דפי נחיתה ואוטומציות לעסקים"}],["$","meta","9",{"property":"og:description","content":"ליז חג׳ג׳ בונה אתרים ודפי נחיתה שנראים כמו העסק שלכם, ומחברת אותם לוואטסאפ, ליומן ולעוזר דיגיטלי שעונה ללקוחות. ליווי אישי, מובייל ונגישות מההתחלה."}],"$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29"]}]}],null]}],"$L2a"]}],"p":"$@2b","v":null,"s":"$a"}},"a":"$@2c","u":"$@2d","b":"RoBF1dv66w2XAYYRs41Cb"}
-2e:I[97367,["$2"],"OutletBoundary"]
-30:I[27201,["$2"],"IconMark"]
-f:["$","li",null,{"children":"האתר מכבד את הגדרת ״הפחתת תנועה״ של המכשיר: הגלילה החלקה, הרקע התנועתי והאנימציות נעצרים והתוכן זהה."}]
-10:["$","li",null,{"children":"כפתורים וקישורים בגודל נוח למגע (לפחות 44 פיקסלים), והאתר מותאם לטלפון, לטאבלט ולמחשב."}]
-11:["$","li",null,{"children":"אין חובה להשתמש בעכבר: גם סינון העבודות, החלפת הצבעים וטופס יצירת הקשר פועלים במקלדת."}]
-12:["$","section",null,{"children":[["$","h2",null,{"children":"מגבלות ידועות"}],["$","ul",null,{"children":[["$","li",null,{"children":"הדמואים של הפרויקטים (בתיקייה demos) נבנו בזמנים שונים, ורמת הנגישות שלהם משתנה. בדמו של גנלי נעשתה בדיקה מלאה."}],["$","li",null,{"children":"הצהרה זו נכתבה על ידי בעלת האתר ואינה מחליפה בדיקה של גורם חיצוני. אם תיתקלו בבעיה, אשמח לתקן."}]]}]]}]
-13:["$","section",null,{"children":[["$","h2",null,{"children":"פנייה בנושא נגישות"}],["$","ul",null,{"children":[["$","li",null,{"children":["מייל: ",["$","a",null,{"href":"mailto:lizhajage@gmail.com","children":"lizhajage@gmail.com"}]]}],["$","li",null,{"children":["וואטסאפ:"," ",["$","a",null,{"href":"https://wa.me/972546887442","children":["$","bdi",null,{"children":"0546887442"}]}]]}],["$","li",null,{"children":"עדכון אחרון של ההצהרה: אוקטובר 2026"}]]}]]}]
-14:["$","$L2e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
-1b:["$","meta","10",{"property":"og:url","content":"https://lizhajage.co.il/"}]
-1c:["$","meta","11",{"property":"og:site_name","content":"Liz Code & Color"}]
-1d:["$","meta","12",{"property":"og:locale","content":"he_IL"}]
-1e:["$","meta","13",{"property":"og:image","content":"https://lizhajage.co.il/og-card.png"}]
-1f:["$","meta","14",{"property":"og:image:width","content":"1200"}]
-20:["$","meta","15",{"property":"og:image:height","content":"630"}]
-21:["$","meta","16",{"property":"og:image:alt","content":"כרטיס הביקור של ליז חג׳ג׳: מפתחת Full-Stack, יישום AI ואוטומציות"}]
-22:["$","meta","17",{"property":"og:type","content":"website"}]
-23:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
-24:["$","meta","19",{"name":"twitter:title","content":"Liz Code & Color | אתרים, דפי נחיתה ואוטומציות לעסקים"}]
-25:["$","meta","20",{"name":"twitter:description","content":"ליז חג׳ג׳ בונה אתרים ודפי נחיתה שנראים כמו העסק שלכם, ומחברת אותם לוואטסאפ, ליומן ולעוזר דיגיטלי שעונה ללקוחות. ליווי אישי, מובייל ונגישות מההתחלה."}]
-26:["$","meta","21",{"name":"twitter:image","content":"https://lizhajage.co.il/og-card.png"}]
-27:["$","link","22",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
-28:["$","link","23",{"rel":"icon","href":"/icon.svg?icon.161j2-zewowze.svg","sizes":"any","type":"image/svg+xml"}]
-29:["$","$L30","24",{}]
-2a:["$","meta",null,{"name":"next-size-adjust","content":""}]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3j2mcvsvlmkqn.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/324xjxl3u_c74.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/39kjri2akwqrq.js","async":true}]],["$","html",null,{"lang":"he","dir":"rtl","className":"epg8_q_variable Cd-IYa_variable N7OoOG_variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function(){var d=document.documentElement;try{d.classList.add('js');if(localStorage.getItem('liz-mode')==='night')d.dataset.mode='night';var s=JSON.parse(localStorage.getItem('liz-a11y')||'{}');if(s.size)d.dataset.size=s.size;if(s.contrast)d.classList.add('a11y-contrast');if(s.motion)d.classList.add('a11y-nomotion');if(s.links)d.classList.add('a11y-links');if(s.spacing)d.classList.add('a11y-spacing')}catch(e){d.classList.add('js')}})();"}}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Person\",\"@id\":\"https://lizhajage.co.il/#liz\",\"name\":\"Liz Hajage\",\"alternateName\":\"ליז חג׳ג׳\",\"jobTitle\":\"Full-Stack Developer, AI & Automation\",\"url\":\"https://lizhajage.co.il\",\"email\":\"mailto:lizhajage@gmail.com\",\"telephone\":\"+972546887442\",\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"IL\"},\"sameAs\":[\"https://www.linkedin.com/in/liz-hajage/\",\"https://github.com/lizamir\"],\"knowsAbout\":[\"React\",\"Next.js\",\"TypeScript\",\"Supabase\",\"n8n\",\"AI agents\",\"Workato\",\"MuleSoft\",\"Web accessibility\"],\"alumniOf\":{\"@type\":\"EducationalOrganization\",\"name\":\"B.Sc. Electrical and Electronics Engineering\"}},{\"@type\":\"WebSite\",\"@id\":\"https://lizhajage.co.il/#site\",\"url\":\"https://lizhajage.co.il\",\"name\":\"Liz Code & Color\",\"inLanguage\":\"he\",\"publisher\":{\"@id\":\"https://lizhajage.co.il/#liz\"}}]}"}}]]}],["$","body",null,{"children":[["$","nav",null,{"aria-label":"דילוג לתוכן","children":["$","a",null,{"className":"skip-link","href":"#main","children":"דילוג לתוכן הראשי"}]}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","main",null,{"id":"main","className":"grid min-h-[100vh] place-content-center justify-items-center gap-[22px] bg-deep px-5 py-10 text-center text-white","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"className":"display","children":["הדף הזה ",["$","em",null,{"className":"text-accent-light not-italic","children":"הלך לאיבוד."}]]}],["$","p",null,{"className":"lead text-on-deep-2","children":"אולי הקישור ישן, ואולי הקלדה קטנה. הנה הדרך חזרה."}],["$","div",null,{"className":"flex flex-wrap justify-center gap-3","children":[["$","$L7",null,{"className":"btn btn-lime","href":"/","children":"לדף הבית"}],["$","$L7",null,{"className":"btn btn-ghost text-white hover:bg-white [&:hover>span]:text-deep","href":"/#work","children":["$","span",null,{"children":"לעבודות"}]}]]}]]}],[]]}],["$","$L8",null,{}]]}]]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fbf7f5","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#2c1520","media":"(prefers-color-scheme: dark)"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"הצהרת נגישות | Liz Code & Color"}],["$","meta","1",{"name":"description","content":"הצהרת הנגישות של האתר של ליז חג׳ג׳: מה נעשה, מגבלות ידועות ואיך פונים."}],["$","link","2",{"rel":"author","href":"https://lizhajage.co.il"}],["$","meta","3",{"name":"author","content":"ליז חג׳ג׳"}],["$","link","4",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","5",{"name":"keywords","content":"בניית אתרים לעסקים,דף נחיתה,אתר תדמית,אוטומציות לעסקים,בוט וואטסאפ,קביעת תורים,מפתחת Full Stack"}],"$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e"]}]}],null]}],"$L2f"]}],"p":"$@30","v":null,"s":"$a"}},"a":"$@31","u":"$@32","b":"nDSKGkbjPEDZQF1KEqi9y"}
+33:I[97367,["$2"],"OutletBoundary"]
+35:I[27201,["$2"],"IconMark"]
+f:["$","p",null,{"className":"eyebrow","children":"ACCESSIBILITY"}]
+10:["$","h1",null,{"className":"title m-0","children":"הצהרת נגישות"}]
+11:["$","p",null,{"className":"lead","children":"אני רוצה שכל אחד ואחת יוכלו להכיר את העבודות שלי ולפנות אליי, בלי קשר ליכולות או למכשיר. כך האתר בנוי:"}]
+12:["$","section",null,{"children":[["$","h2",null,{"children":"מה נעשה"}],["$","ul",null,{"children":[["$","li",null,{"children":"מבנה כותרות וסימון (landmarks) ברורים, קישור ״דילוג לתוכן הראשי״, וניווט מלא במקלדת עם סימון מיקוד בולט."}],["$","li",null,{"children":"ניגודיות צבעים נבדקה מול רמה AA של תקן WCAG 2.1, בכל ארבע ערכות הצבעים של האתר."}],["$","li",null,{"children":"תפריט נגישות בפינת המסך: הגדלת טקסט (ארבע דרגות), ניגודיות גבוהה, הדגשת קישורים, ריווח שורות ואותיות ועצירת אנימציות."}],["$","li",null,{"children":"האתר מכבד את הגדרת ״הפחתת תנועה״ של המכשיר: הגלילה החלקה, הרקע התנועתי והאנימציות נעצרים והתוכן זהה."}],["$","li",null,{"children":"כפתורים וקישורים בגודל נוח למגע (לפחות 44 פיקסלים), והאתר מותאם לטלפון, לטאבלט ולמחשב."}],["$","li",null,{"children":"אין חובה להשתמש בעכבר: גם סינון העבודות, החלפת הצבעים וטופס יצירת הקשר פועלים במקלדת."}]]}]]}]
+13:["$","section",null,{"children":[["$","h2",null,{"children":"מגבלות ידועות"}],["$","ul",null,{"children":[["$","li",null,{"children":"הדמואים של הפרויקטים (בתיקייה demos) נבנו בזמנים שונים, ורמת הנגישות שלהם משתנה. בדמו של גנלי נעשתה בדיקה מלאה."}],["$","li",null,{"children":"הצהרה זו נכתבה על ידי בעלת האתר ואינה מחליפה בדיקה של גורם חיצוני. אם תיתקלו בבעיה, אשמח לתקן."}]]}]]}]
+14:["$","section",null,{"children":[["$","h2",null,{"children":"פנייה בנושא נגישות"}],["$","ul",null,{"children":[["$","li",null,{"children":["מייל: ",["$","a",null,{"href":"mailto:lizhajage@gmail.com","children":"lizhajage@gmail.com"}]]}],["$","li",null,{"children":["וואטסאפ:"," ",["$","a",null,{"href":"https://wa.me/972546887442","children":["$","bdi",null,{"children":"0546887442"}]}]]}],["$","li",null,{"children":"עדכון אחרון של ההצהרה: אוקטובר 2026"}]]}]]}]
+15:["$","$L33",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@34"}]}]
+1c:["$","meta","6",{"name":"robots","content":"index, follow"}]
+1d:["$","link","7",{"rel":"canonical","href":"https://lizhajage.co.il/accessibility/"}]
+1e:["$","meta","8",{"property":"og:title","content":"Liz Code & Color | אתרים, דפי נחיתה ואוטומציות לעסקים"}]
+1f:["$","meta","9",{"property":"og:description","content":"ליז חג׳ג׳ בונה אתרים ודפי נחיתה שנראים כמו העסק שלכם, ומחברת אותם לוואטסאפ, ליומן ולעוזר דיגיטלי שעונה ללקוחות. ליווי אישי, מובייל ונגישות מההתחלה."}]
+20:["$","meta","10",{"property":"og:url","content":"https://lizhajage.co.il/"}]
+21:["$","meta","11",{"property":"og:site_name","content":"Liz Code & Color"}]
+22:["$","meta","12",{"property":"og:locale","content":"he_IL"}]
+23:["$","meta","13",{"property":"og:image","content":"https://lizhajage.co.il/og-card.png"}]
+24:["$","meta","14",{"property":"og:image:width","content":"1200"}]
+25:["$","meta","15",{"property":"og:image:height","content":"630"}]
+26:["$","meta","16",{"property":"og:image:alt","content":"כרטיס הביקור של ליז חג׳ג׳: מפתחת Full-Stack, יישום AI ואוטומציות"}]
+27:["$","meta","17",{"property":"og:type","content":"website"}]
+28:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
+29:["$","meta","19",{"name":"twitter:title","content":"Liz Code & Color | אתרים, דפי נחיתה ואוטומציות לעסקים"}]
+2a:["$","meta","20",{"name":"twitter:description","content":"ליז חג׳ג׳ בונה אתרים ודפי נחיתה שנראים כמו העסק שלכם, ומחברת אותם לוואטסאפ, ליומן ולעוזר דיגיטלי שעונה ללקוחות. ליווי אישי, מובייל ונגישות מההתחלה."}]
+2b:["$","meta","21",{"name":"twitter:image","content":"https://lizhajage.co.il/og-card.png"}]
+2c:["$","link","22",{"rel":"icon","href":"/favicon.ico?favicon.117ezoe8m31dk.ico","sizes":"48x48","type":"image/x-icon"}]
+2d:["$","link","23",{"rel":"icon","href":"/icon.svg?icon.161j2-zewowze.svg","sizes":"any","type":"image/svg+xml"}]
+2e:["$","$L35","24",{}]
+2f:["$","meta",null,{"name":"next-size-adjust","content":""}]
 a:300
-2f:null
-2d:true
+34:null
+32:true
 a:C
-2c:0
+31:0
 c:"$undefined"
 9:"$undefined"
-2b:"$undefined"
-15:"$undefined"
+30:"$undefined"
+16:"$undefined"

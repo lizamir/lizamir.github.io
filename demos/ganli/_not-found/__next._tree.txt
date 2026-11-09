@@ -1,4 +1,4 @@
-:HL["/demos/ganli/_next/static/chunks/04v-3fyhg5h3l.css","style"]
+:HL["/demos/ganli/_next/static/chunks/02p51i2i66wdh.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"gNZ3xUJ_utrb0UuyIrdXK","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Ln7l9jD0LVbX-zrL_65FB","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
