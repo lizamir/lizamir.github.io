@@ -9,4 +9,4 @@
 :HL["/_next/static/chunks/05_muijz0ugew.css","style"]
 :HL["/assets/bot-qr.svg","image"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"us04DOUURjMJbrtudbnHe","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Mg3RqrXGqSMdFkCS8-v2O","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
